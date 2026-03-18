@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo | Isabelly Botelho</title>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #333; }
+        /* Garante que o PDF ocupe a tela inteira */
+        iframe { width: 100%; height: 100%; border: none; }
+        .fallback { color: white; text-align: center; padding: 50px; font-family: sans-serif; }
+        .btn { background: #e91e63; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+    <!-- A tag iframe é a forma mais direta de abrir um PDF no navegador -->
+    <!-- IMPORTANTE: O nome do arquivo deve ser exatamente igual ao que está na pasta -->
+    <iframe src="curriculo.pdf" type="application/pdf">
+        <div class="fallback">
+            <p>Seu navegador não suporta a visualização direta.</p>
+            <br>
+            <a href="curriculo.pdf" class="btn" target="_blank">Clique aqui para baixar o PDF</a>
+        </div>
+    </iframe>
+
+</body>
+</html>
