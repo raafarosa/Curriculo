@@ -1,4 +1,4 @@
-# RAFAEL ROSA | Analista de Sistemas / Cientista de Dados
+# Rafael Rosa | Analista de Sistemas / Cientista de Dados
 São Paulo, SP | rafa.rosa238@gmail.com | (11) 97099-5352<br>
 LinkedIn: linkedin.com/in/rafael-rosa-alves<br>
 GitHub: github.com/raafarosa
